@@ -1,0 +1,1 @@
+=SUM(((QUERY( IMPORTRANGE( "173c9EHe8KlKl3c0W_aMcU0LRmCF7inyrqCVwZTzj9Nc" ,"【"&$D338&"】データ参照シート!G2:H1000"), "select Col2 where Col1 <= date '"&TEXT(TODAY()-1,"YYYY-MM-DD")&"'"))))
